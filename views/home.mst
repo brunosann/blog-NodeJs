@@ -1,0 +1,6 @@
+{{>header}}
+<h1> Bem vindo ao copmeço do blog</h1>
+{{name}}
+{{#h.menu}}
+  <p>{{name}}</p>
+{{/h.menu}}

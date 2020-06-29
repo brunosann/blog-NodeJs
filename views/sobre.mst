@@ -1,12 +1,12 @@
 {{>header}}
 
 <section class="container">
-  <div class="row">
-    <div class="col-sm-3 bg-white">
+  <div class="s-info">
+    <article class="bg-white image">
       <img class="rounded mx-auto d-block" src="/uploads/teixeira.png" alt="imagem perfil">
-    </div>
-    <div class="col-sm-9 bg-white">
-      <h4>Prazer, Bruno Teixeira</h4>
+    </article>
+    <article class="bg-white px-3">
+      <h3>Prazer, Bruno Teixeira</h3>
       <p>Estudante de Desenvolvimento Web</p>
       <p>Desenvolvedor web, apaixonado por tecnologia e desenvolvimento de aplicações</p>
       <div class="card-title py-2">
@@ -14,8 +14,47 @@
         <img class="mx-1" src="/uploads/git.png" alt="git">
         <img class="mx-1" src="/uploads/linkedin.png" alt="linkedin">
       </div>
-    </div>
+    </article>
   </div>
+  <div class="s-desc-skils">
+    <article class="bg-white p-3">
+      <h3>Por que eu criei esse Blog?</h3>
+      <p>Criei esse blog, com o intuito repassar meus conhecimentos e de ajudar outras pessoas a aprender programação, no começo pode parecer um mar de informações e é fácil de se perder com tanta informações na internet, e quero ajudar e ir direto ao ponto no aprendizado, sem dar voltas desnecessárias para não perder tempo.</p>
+    </article>
+    <article class="bg-white p-3">
+      <h3>Minhas Skills</h3>
+      <h5>HTML</h5>
+      <p>É uma linguagem de marcação utilizada na construção de páginas na Web</p>
+      <h5>CSS</h5>
+      <p>É usado para estilizar elementos escritos em uma linguagem de marcação como HTML</p>
+      <h5>JavaScript</h5>
+      <p>É uma linguagem de programação utilizada principalmente em páginas web, mais é muito utilizada também fora da Web</p>
+      <h5>PHP</h5>
+      <p>É uma linguagem de programação utilizada para desenvolver e construir sites dinâmicos, e costuma ser mais usado para comunicação do lado do servidor</p>
+      <h5>MySQL</h5>
+      <p>É um Banco de Dados relacional</p>
+    </article>
+  </div>
+  <article class="bg-white p-3">
+    <form method="post">
+      <h3 class="mb-3">Fale Comigo</h3>
+      <div class="form-group">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nome">
+        </div>
+        <div class="col">
+          <input type="email" class="form-control" placeholder="E-mail">
+        </div>
+      </div>
+      <div class="form-group text-center mt-3">
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+      </div>
+    </form>
+  </article>
+
 </section>
 
 {{>footer}}

@@ -20,3 +20,19 @@ article {
 footer .copy a {
   text-decoration: none;
 }
+
+/* sobre */
+.s-info {
+  display: grid;
+  grid-template-columns: 225px 1fr;
+  grid-gap: 30px;
+}
+.s-info .image {
+  display: flex;
+  align-items: center;
+}
+.s-desc-skils {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}

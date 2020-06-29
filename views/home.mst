@@ -1,6 +1,68 @@
 {{>header}}
-<h1> Bem vindo ao copmeço do blog</h1>
-{{name}}
-{{#h.menu}}
-  <p>{{name}}</p>
-{{/h.menu}}
+<div class="container">
+  <main class="row">
+    <section class="col-md-9">
+      <article class="bg-white rounded">
+        <figure class="figure">
+          <img src="/uploads/teste.jpg" class="figure-img img-fluid rounded-top" alt="imagem post">
+          <figcaption class="figure-caption p-3">
+            <h5>One Big Column</h5>
+            <span class="small">29/06/2020</span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur hic eius ipsa aliquam cupiditate vel doloribus, veniam sunt labore ducimus iste nobis natus, nulla aut amet. Fugiat voluptatibus ipsum iusto eveniet dicta culpa magni commodi, nisi sapiente optio, dolore molestias quo illum beatae at distinctio placeat vitae, rem ipsa doloribus adipisci repellendus!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim reprehenderit delectus aliquam exercitationem deleniti explicabo. Soluta aliquam laboriosam eius ducimus, sunt accusantium perspiciatis hic modi harum numquam deleniti? Sunt, dicta.</p>
+            <button class="btn btn-primary">Read More</button>
+          </figcaption>
+        </figure>
+      </article>
+      <article>
+        <figure class="figure">
+          <img src="/uploads/teste.jpg" class="figure-img img-fluid" alt="imagem post">
+          <figcaption class="figure-caption p-4">
+            <h5>One Big Column</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur hic eius ipsa aliquam cupiditate vel doloribus, veniam sunt labore ducimus iste nobis natus, nulla aut amet. Fugiat voluptatibus ipsum iusto eveniet dicta culpa magni commodi, nisi sapiente optio, dolore molestias quo illum beatae at distinctio placeat vitae, rem ipsa doloribus adipisci repellendus!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim reprehenderit delectus aliquam exercitationem deleniti explicabo. Soluta aliquam laboriosam eius ducimus, sunt accusantium perspiciatis hic modi harum numquam deleniti? Sunt, dicta.</p>
+            <button class="btn btn-primary">Read More</button>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+    <aside class="col-md-3">
+      <div class="card mb-3 text-center">
+        <div class="card-header bgh h5">Categorias</div>
+        <div class="card-body">
+          <h6 class="card-title border-bottom py-2">Front End</h6>
+          <h6 class="card-title border-bottom py-2">Back End</h6>
+          <h6 class="card-title border-bottom py-2">Dicas</h6>
+          <h6 class="card-title border-bottom py-2">Tutoriais</h6>
+        </div>
+      </div>
+      <div class="card mb-3 text-center">
+        <div class="card-header bgh h5">Sobre</div>
+        <div class="card-body">
+          <h6 class="card-title border-bottom py-2">Bruno Teixeira</h6>
+          <h6 class="card-title border-bottom py-2">Estudando Desenvolvimento Web</h6>
+          <div class="card-title border-bottom py-2">
+            <img class="mx-1" src="/uploads/facebook.png" alt="facebook">
+            <img class="mx-1" src="/uploads/git.png" alt="git">
+            <img class="mx-1" src="/uploads/linkedin.png" alt="linkedin">
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 text-center">
+        <div class="card-header bgh h5">Receba Conteudos</div>
+        <div class="card-body">
+          <h6 class="card-title py-2">E-mail</h6>
+          <form method="post">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Seu email">
+              <small class="form-text text-muted">Você não recebera spam!</small>
+            </div>
+            <button class="btn btn-primary btn-block" type="submit">Quero Receber</button>
+          </form>
+        </div>
+      </div>
+    </aside>
+  </main>
+</div>
+
+{{>footer}}

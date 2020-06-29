@@ -1,0 +1,22 @@
+body {
+  background-color: #e3e3e3;
+}
+header {
+  background-color: #444444;
+  font-size: 1.5rem;
+}
+.col-sm a {
+  color: #eeeedd;
+  text-decoration: none;
+}
+article {
+  box-shadow: 3px 3px 9px #444444;
+  margin-bottom: 15px;
+}
+.bgh {
+  background-color: #444444;
+  color: #eeeedd;
+}
+footer .copy a {
+  text-decoration: none;
+}

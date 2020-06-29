@@ -1,0 +1,21 @@
+{{>header}}
+
+<section class="container">
+  <div class="row">
+    <div class="col-sm-3 bg-white">
+      <img class="rounded mx-auto d-block" src="/uploads/teixeira.png" alt="imagem perfil">
+    </div>
+    <div class="col-sm-9 bg-white">
+      <h4>Prazer, Bruno Teixeira</h4>
+      <p>Estudante de Desenvolvimento Web</p>
+      <p>Desenvolvedor web, apaixonado por tecnologia e desenvolvimento de aplicações</p>
+      <div class="card-title py-2">
+        <img class="mx-1" src="/uploads/facebook.png" alt="facebook">
+        <img class="mx-1" src="/uploads/git.png" alt="git">
+        <img class="mx-1" src="/uploads/linkedin.png" alt="linkedin">
+      </div>
+    </div>
+  </div>
+</section>
+
+{{>footer}}

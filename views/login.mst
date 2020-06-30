@@ -1,0 +1,22 @@
+{{>header}}
+
+<div class="d-flex align-items-center justify-content-center text-center" style="width: 100%; height: 670px;">
+  <form method="post" class="login p-3 bg-white">
+    <h1>Login</h1>
+    <div class="form-group">
+      <label for="email">Endereço de email</label>
+      <input type="email" name='email' class="form-control" id="email" placeholder="Seu email">
+    </div>
+    <div class="form-group">
+      <label for="password">Senha</label>
+      <input type="password" name="password" class="form-control" id="password" placeholder="Senha">
+    </div>
+    <div class="form-group">
+      Não tem conta ? <a href="http://localhost:3333/users/cadastro">Cadastre-se</a>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+</div>
+
+
+{{>footer}}

@@ -44,3 +44,9 @@ footer .copy a {
     grid-gap: 5px;
   }
 }
+
+/* login */
+.login {
+  width: 400px;
+  min-height: 400px;
+}

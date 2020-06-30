@@ -1,0 +1,36 @@
+{{>header}}
+<section class="container" ">
+  <div class=" row">
+  <div class="col">
+    <article class="bg-white p-3">
+      <h3>Tem alguma dica para compartilhar ou alguma experiência para contribuir com o aprendizado, ou gostaria de escrever para o Blog?</h3>
+      <p>Ideias são muito bem vindas</p>
+      <p>Envie e contribua para a comunidade!</p>
+    </article>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <article class="bg-white p-3">
+        <form method="post">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nome">
+            </div>
+            <div class="col">
+              <input type="email" class="form-control" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="form-group my-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group text-center mt-3">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+          </div>
+        </form>
+      </article>
+    </div>
+  </div>
+</section>
+
+{{>footer}}

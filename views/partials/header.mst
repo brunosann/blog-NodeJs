@@ -15,12 +15,12 @@
       <ul class="row list-inline d-flex align-items-center py-3">
         <div class="col-sm">
           <li class="list-inline-item">
-            <a href="#" class="h1 py-3">Blog Teixeira</a>
+            <a href="http://localhost:3333/" class="h1 py-3">Blog Teixeira</a>
           </li>
         </div>
         <div class="col-sm text-right">
-          <li class="list-inline-item"> <a class="py-3" href="#">Sobre</a> </li>
-          <li class="list-inline-item"> <a class="py-3" href="#">Escreva papa o Blog</a> </li>
+          <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/sobre">Sobre</a> </li>
+          <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/escreva-para-o-blog">Escreva papa o Blog</a> </li>
         </div>
       </ul>
     </nav>

@@ -1,8 +1,18 @@
+{{#height}}
+<footer class="container-fluid bgh" style="position:absolute;bottom:0;">
+  <div class="copy container text-center py-2">
+    Desenvolvido por <a href="#">Bruno Teixeira</a> &copy; Direitos reservados
+  </div>
+</footer>
+{{/height}}
+
+{{^height}}
 <footer class="container-fluid bgh">
   <div class="copy container text-center py-2">
     Desenvolvido por <a href="#">Bruno Teixeira</a> &copy; Direitos reservados
   </div>
 </footer>
+{{/height}}
 
 </body>
 

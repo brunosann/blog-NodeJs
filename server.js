@@ -2,6 +2,7 @@ const express = require("express");
 const mustache = require("mustache-express");
 require("dotenv").config({ path: "variables.env" });
 const helpers = require("./helpers");
+const session = require("express-session");
 
 const app = express();
 const router = require("./routes");
@@ -11,8 +12,17 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static(__dirname + "/public"));
 
+app.use(
+  session({
+    secret: process.env.SECRET,
+    resave: false,
+    saveUninitialized: false,
+  }),
+);
+
 app.use((req, res, next) => {
   res.locals.h = helpers;
+  res.locals.user = req.session.user;
   next();
 });
 

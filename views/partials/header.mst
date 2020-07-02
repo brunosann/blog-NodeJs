@@ -21,7 +21,12 @@
         <div class="col-sm text-right">
           <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/sobre">Sobre</a> </li>
           <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/escreva-para-o-blog">Escreva papa o Blog</a> </li>
-          <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/users/login">Login</a> </li>
+          {{^user}}
+            <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/users/login">Login</a> </li>
+          {{/user}}
+          {{#user}}
+            <li class="list-inline-item"> <a class="py-3 text-primary" href="http://localhost:3333/users/post"> {{nome}} </a> </li>
+          {{/user}}
         </div>
       </ul>
     </nav>

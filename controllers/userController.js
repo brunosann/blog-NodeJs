@@ -15,7 +15,9 @@ exports.loginAction = async (req, res) => {
   if (user.length < 1) return res.redirect("/users/login");
   bcrypt.compare(password, user[0].senha, (err, result) => {
     if (result) {
-      req.user = user[0].nome;
+      const { id, nome, email } = user[0];
+      const userData = { id, nome, email };
+      req.session.user = userData;
       return res.redirect("/");
     }
     return res.redirect("/users/login");

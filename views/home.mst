@@ -7,7 +7,10 @@
           <img src="/uploads/teste.jpg" class="figure-img img-fluid rounded-top" alt="imagem post">
           <figcaption class="figure-caption p-3">
             <h5>One Big Column</h5>
-            <span class="small">29/06/2020</span>
+            <div class="d-flex justify-content-between">
+              <span class="small text-right">Por Bruno Teixeira</span>
+              <span class="small">29/06/2020</span>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur hic eius ipsa aliquam cupiditate vel doloribus, veniam sunt labore ducimus iste nobis natus, nulla aut amet. Fugiat voluptatibus ipsum iusto eveniet dicta culpa magni commodi, nisi sapiente optio, dolore molestias quo illum beatae at distinctio placeat vitae, rem ipsa doloribus adipisci repellendus!</p>
             <button class="btn btn-primary">Read More</button>
           </figcaption>

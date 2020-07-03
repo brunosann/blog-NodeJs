@@ -22,12 +22,17 @@
           <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/sobre">Sobre</a> </li>
           <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/escreva-para-o-blog">Escreva papa o Blog</a> </li>
           {{^user}}
-            <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/users/login">Login</a> </li>
+          <li class="list-inline-item"> <a class="py-3" href="http://localhost:3333/users/login">Login</a> </li>
           {{/user}}
           {{#user}}
-            <li class="list-inline-item"> <a class="py-3 text-primary" href="http://localhost:3333/users/post"> {{nome}} </a> </li>
+          <li class="list-inline-item"> <a id="user" class="py-3 text-primary" href="http://localhost:3333/users/post"> {{nome}} </a> </li>
           {{/user}}
+          <div class="modal-user">
+            <a class="my-1" href="http://localhost:3333/users/post">Postar</a>
+            <a class="my-1" href="http://localhost:3333/users/logout">Sair</a>
+          </div>
         </div>
       </ul>
     </nav>
+
   </header>

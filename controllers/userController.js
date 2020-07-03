@@ -46,3 +46,10 @@ exports.cadastroAction = async (req, res) => {
     res.redirect("/users/login");
   });
 };
+
+exports.logout = (req, res) => {
+  req.session.destroy((err) => {
+    if (err) return console.log(err);
+    res.redirect("/");
+  });
+};
